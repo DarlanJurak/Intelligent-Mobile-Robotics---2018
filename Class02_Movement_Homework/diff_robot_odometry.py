@@ -9,8 +9,8 @@ robot_initial_x_pos                     =   input('Please, insert robot initial 
 robot_initial_y_pos                     =   input('Please, insert robot initial Y position                      : ')
 robot_initial_angle                     =   input('Please, insert robot initial angle (rad)                     : ')
 print "***** Robot Current Position *****"  
-robot_encoder_current_ticks_left         =   input('Please, insert robot current ticks - left -                 : ')
-robot_encoder_current_ticks_right        =   input('Please, insert robot current ticks - right -                : ')
+robot_encoder_current_ticks_left        =   input('Please, insert robot current ticks - left -                  : ')
+robot_encoder_current_ticks_right       =   input('Please, insert robot current ticks - right -                 : ')
 
 print "***** Robot Current X, Y, Angle Position Calculation *****"
 print " ... "
