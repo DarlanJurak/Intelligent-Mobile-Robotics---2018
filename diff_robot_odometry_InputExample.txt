@@ -1,0 +1,11 @@
+For diff_robot_odometry.py you can copy and past this data:
+Really! Just copy and past after running
+
+0.25
+16
+0.05
+0
+0
+0.78
+64
+64
