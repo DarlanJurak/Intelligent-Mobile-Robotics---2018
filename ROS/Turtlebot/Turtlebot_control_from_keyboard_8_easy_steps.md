@@ -1,4 +1,4 @@
-# Control real Turtlebot from keyboard
+# Controlling real Turtlebot from keyboard
 
 ## Dependencies:
 1. ROS's Turtlebot library already installed. If it is not, try:
