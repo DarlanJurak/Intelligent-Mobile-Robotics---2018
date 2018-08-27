@@ -11,7 +11,7 @@
     2. Other to remotely control Turtlebot (computer2)
 
 ## 1. Turn Turtlebot ON
-## 2. Connect Turtlebot on a LSA's already configured laptop (lsa-geronimo)
+## 2. Connect Turtlebot on a already configured LSA's laptop (lsa-geronimo)
 ## 3. Connect both computers on the lsa_robot WiFi network
 ## 4. run on LSA's laptop (terminal 1):
     $ roscore
