@@ -23,7 +23,7 @@
     $ export ROS_MASTER_URI = http://192.168.0.102:11311
 
     # computer2 network address
-    $ export ROS_HOSTNAME  =192.168.0.101
+    $ export ROS_HOSTNAME = 192.168.0.101
 
 ## 7. run on computer2(**new** terminal 3):
 
