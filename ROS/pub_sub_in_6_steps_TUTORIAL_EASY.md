@@ -25,8 +25,8 @@
 
 ### 4.1 Add the following two lines (listener/talker specific):
 
-        rosbuild_add_executable(talker src/talker.cpp)
-        rosbuild_add_executable(listener src/listener.cpp)
+    rosbuild_add_executable(talker src/talker.cpp)
+    rosbuild_add_executable(listener src/listener.cpp)
 
 ## 5. Build last changes
 
