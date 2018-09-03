@@ -3,7 +3,7 @@
 ## 1. Create pkg in the **current directory**:
 
     # roscreate-pkg [pkg_name] [depend1] [depend2] [depend3] [depend4]
-    $ roscreate-pkg beginner_tutorials std_msgs rospy rosc
+    $ roscreate-pkg beginner_tutorials std_msgs rospy roscpp
 
 ## 2. Build pkg:
 
