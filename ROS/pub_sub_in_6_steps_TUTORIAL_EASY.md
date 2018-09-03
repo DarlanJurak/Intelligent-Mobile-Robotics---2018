@@ -12,11 +12,11 @@
 
 ## 3. Write and save main files:
     
-# files from: http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
-# listener: https://raw.githubusercontent.com/ros/ros_tutorials/kinetic-devel/roscpp_tutorials/listener/listener.cpp
-# talker: https://raw.githubusercontent.com/ros/ros_tutorials/kinetic-devel/roscpp_tutorials/talker/talker.cpp
+    # files from: http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
+    # listener: https://raw.githubusercontent.com/ros/ros_tutorials/kinetic-devel/roscpp_tutorials/listener/listener.cpp
+    # talker: https://raw.githubusercontent.com/ros/ros_tutorials/kinetic-devel/roscpp_tutorials/talker/talker.cpp
 
-# Add files (.cpp or .py) on ".../pkg/src"
+    # Add files (.cpp or .py) on ".../pkg/src"
 
 ## 4. Edit file "CMakeLists.txt":
 
