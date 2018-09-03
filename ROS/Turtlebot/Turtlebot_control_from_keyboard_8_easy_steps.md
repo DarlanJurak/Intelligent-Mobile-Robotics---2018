@@ -11,7 +11,7 @@
     2. Other to remotely control Turtlebot (computer2)
 
 ## 1. Turn Turtlebot ON
-## 2. Connect Turtlebot on a LSA's already configured laptop (lsa-geronimo)
+## 2. Connect Turtlebot on an already configured LSA's laptop (lsa-geronimo)
 ## 3. Connect both computers on the lsa_robot WiFi network
 ## 4. run on LSA's laptop (terminal 1):
     $ roscore
@@ -20,10 +20,14 @@
 ## 6. run on computer2:
 
     # LSA's laptop network address
-    $ export ROS_MASTER_URI = http://192.168.0.102:11311
+    $ export ROS_MASTER_URI=http://192.168.0.102:11311
 
     # computer2 network address
-    $ export ROS_HOSTNAME  =192.168.0.101
+    $ export ROS_HOSTNAME=192.168.0.101
+    
+    #You can test using:
+    # echo $ROS_MASTER_URI
+    # echo $ROS_HOSTNAME
 
 ## 7. run on computer2(**new** terminal 3):
 
