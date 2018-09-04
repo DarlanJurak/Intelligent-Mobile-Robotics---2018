@@ -1,6 +1,6 @@
 # ROS PACKAGE - Creation, compilation and execution
 
-## 1. Create pkg in the **current directory**:
+## 1. Create pkg in the **current directory** (do it on src/):
 
     # roscreate-pkg [pkg_name] [depend1] [depend2] [depend3] [depend4]
     $ roscreate-pkg beginner_tutorials std_msgs rospy roscpp
