@@ -23,14 +23,19 @@
     # rosed beginner_tutorials CMakeLists.txt
     $ rosed [pkg] CMakelists.txt
 
-### 4.1 Add the following two lines (listener/talker specific):
+### 4.1 Add the following lines (listener/talker specific):
 
     rosbuild_add_executable(talker src/talker.cpp)
     rosbuild_add_executable(listener src/listener.cpp)
+    
+    ## Specify libraries to link a library or executable target against
+    target_link_libraries(${PROJECT_NAME}_node
+      ${catkin_LIBRARIES}
+    )
 
-## 5. Build last changes (on src/beginner_tutorials)
+## 5. Build last changes (on catkin_ws)
 
-    $ make
+    $ catkin_make
 
 ## 6. Nodes execution (each one in a different terminal so, 3 terminals)
 
